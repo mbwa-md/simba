@@ -2231,7 +2231,7 @@ ${config.PREFIX}𝙰𝙻𝙻 𝙼𝙴𝙽𝚄 𝚃𝙾 𝚅𝙸𝙴𝚆 𝙰𝙻
                         }, { quoted: msg });
                     } catch (error) {
                         console.error('Error in .active command:', error);
-                        await socket.sendMessage(from, { text: '*❌ 𝙸 𝚌𝚘𝚞𝚕𝚍𝚗'𝚝 𝚌𝚘𝚞𝚗𝚝 𝚝𝚑𝚎 𝚊𝚌𝚝𝚒𝚟𝚎 𝚜𝚘𝚞𝚕𝚜! 💔 𝚃𝚛𝚢 𝚊𝚐𝚊𝚒𝚗?*' }, { quoted: fakevCard });
+                        await socket.sendMessage(from, { text: '*❌ 𝙸 𝚌𝚘𝚞𝚕𝚍𝚗𝚝 𝚌𝚘𝚞𝚗𝚝 𝚝𝚑𝚎 𝚊𝚌𝚝𝚒𝚟𝚎 𝚜𝚘𝚞𝚕𝚜! 💔 𝚃𝚛𝚢 𝚊𝚐𝚊𝚒𝚗?*' }, { quoted: fakevCard });
                     }
                     break;
                 }
