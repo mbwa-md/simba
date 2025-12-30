@@ -3413,7 +3413,7 @@ ${config.PREFIX}𝙰𝙻𝙻 𝙼𝙴𝙽𝚄 𝚃𝙾 𝚅𝙸𝙴𝚆 𝙰𝙻
                         await socket.sendMessage(sender, { text: whoisMessage }, { quoted: fakevCard });
                     } catch (error) {
                         console.error('Whois command error:', error);
-                        await socket.sendMessage(sender, { text: '❌ 𝘾𝙤𝙪𝙡𝙙𝙣'𝙩 𝙛𝙞𝙣𝙙 𝙩𝙝𝙖𝙩 𝙙𝙤𝙢𝙖𝙞𝙣! 😢 𝙏𝙧𝙮 𝙖𝙜𝙖𝙞𝙣?' }, { quoted: fakevCard });
+                        await socket.sendMessage(sender, { text: '❌ 𝘾𝙤𝙪𝙡𝙙𝙣𝙩 𝙛𝙞𝙣𝙙 𝙩𝙝𝙖𝙩 𝙙𝙤𝙢𝙖𝙞𝙣! 😢 𝙏𝙧𝙮 𝙖𝙜𝙖𝙞𝙣?' }, { quoted: fakevCard });
                     }
                     break;
                 }
