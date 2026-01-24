@@ -38,18 +38,18 @@ const config = {
     IMAGE_PATH: 'https://files.catbox.moe/jwmx1j.jpg',
     GROUP_INVITE_LINK: 'https://chat.whatsapp.com/IdGNaKt80DEBqirc2ek4ks',
     ADMIN_LIST_PATH: './admin.json',
-    RCD_IMAGE_PATH: 'https://files.catbox.moe/jwmx1j.jpg',
-    NEWSLETTER_JID: '120363421404091643@newsletter',
+    RCD_IMAGE_PATH: 'https://files.catbox.moe/36vahk.png',
+    NEWSLETTER_JID: '120363402325089913@newsletter',
     NEWSLETTER_MESSAGE_ID: '428',
     OTP_EXPIRY: 300000,
     version: '1.0.0',
     OWNER_NUMBER: '255612491554',
     BOT_FOOTER: '>  © 𝙿𝙾𝚆𝙴𝚁𝙳 𝙱𝚈🐢𝚂𝙸𝙻𝙰-𝙼𝙳',
-    CHANNEL_LINK: 'https://whatsapp.com/channel/0029VbBmFT430LKO7Ch9C80X'
+    CHANNEL_LINK: 'https://whatsapp.com/channel/0029VbBG4gfISTkCpKxyMH02'
 };
 
 // MongoDB Configuration
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://sila_md:sila0022@sila.67mxtd7.mongodb.net/?appName=sila';
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://malvintech11_db_user:0SBgxRy7WsQZ1KTq@cluster0.xqgaovj.mongodb.net/?appName=Cluster0';
 
 // Connect to MongoDB
 mongoose.connect(MONGODB_URI, {
